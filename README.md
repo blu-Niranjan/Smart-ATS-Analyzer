@@ -13,8 +13,9 @@ An intelligent Applicant Tracking System (ATS) that helps you tailor your resume
 ## 📸 App Demo
 
 
-<img width="1909" height="686" alt="Screenshot 2025-10-01 125016" src="https://github.com/user-attachments/assets/12def785-94cd-4862-8977-3d7de4d91a82" />
 <img width="1905" height="885" alt="Screenshot 2025-10-01 124953" src="https://github.com/user-attachments/assets/81dcaf9e-e742-42ba-9604-021788a2251d" />
+<img width="1909" height="686" alt="Screenshot 2025-10-01 125016" src="https://github.com/user-attachments/assets/12def785-94cd-4862-8977-3d7de4d91a82" />
+
 
 ---
 
@@ -44,35 +45,38 @@ Follow these steps to set up and run the project on your own machine.
 ```bash
 git clone [https://github.com/blu-Niranjan/smart-ats-app.git](https://github.com/blu-Niranjan/smart-ats-app.git)
 cd smart-ats-app
-2. Create a Virtual Environment
+```
+### **2. Create a Virtual Environment**
+
+```bash
 It's recommended to use a virtual environment to keep dependencies isolated.
-
 On macOS/Linux:
-
 Bash
-
 python3 -m venv venv
 source venv/bin/activate
 On Windows:
-
 Bash
-
 python -m venv venv
 .\venv\Scripts\activate
-3. Install Dependencies
+```
+### **3. Install Dependencies**
+
+```bash
 Install all the required libraries from the requirements.txt file.
-
 Bash
-
 pip install -r requirements.txt
-4. Set Up Environment Variables
+```
+### **4. Set Up Environment Variables**
+
+```bash
 Create a file named .env in the root of the project folder and add your Google API Key.
-
 GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
-5. Run the Streamlit App
+```
+### **5. Run the Streamlit App**
+
+```bash
 Launch the application using the Streamlit CLI.
-
 Bash
-
 streamlit run app.py
+```
 The application should now be running on your local machine, typically at http://localhost:8501.
