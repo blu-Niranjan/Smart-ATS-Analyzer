@@ -48,35 +48,30 @@ cd smart-ats-app
 ```
 ### **2. Create a Virtual Environment**
 
-```bash
 It's recommended to use a virtual environment to keep dependencies isolated.
 On macOS/Linux:
-Bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 On Windows:
-Bash
+```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
 ### **3. Install Dependencies**
-
-```bash
 Install all the required libraries from the requirements.txt file.
-Bash
+```bash
 pip install -r requirements.txt
 ```
 ### **4. Set Up Environment Variables**
-
-```bash
 Create a file named .env in the root of the project folder and add your Google API Key.
+```bash
 GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
 ```
 ### **5. Run the Streamlit App**
-
-```bash
 Launch the application using the Streamlit CLI.
-Bash
+```bash
 streamlit run app.py
 ```
 The application should now be running on your local machine, typically at http://localhost:8501.
